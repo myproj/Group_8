@@ -1,6 +1,7 @@
 #include "functions.h"
 
 int factorial(int n){
+    cout << "HELLO\n";
     if(n!=1){
 	return(n * factorial(n-1));
     }
